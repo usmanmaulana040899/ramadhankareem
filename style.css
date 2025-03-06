@@ -1,0 +1,164 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: #f4f4f4;
+}
+
+header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 10px 0 20px;
+    font-size: 1.2em;
+}
+
+.btn-explore {
+    background-color: #e67e22;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.btn-explore:hover {
+    background-color: #d35400;
+}
+
+.search-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#search-input {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#dark-mode-toggle {
+    padding: 10px 20px;
+    background-color: #34495e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#dark-mode-toggle:hover {
+    background-color: #2c3e50;
+}
+
+.ceramah-list {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.ceramah-item {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.dark-mode .ceramah-item {
+    background-color: #444;
+    color: #f4f4f4;
+}
+
+.ceramah-item:hover {
+    transform: translateY(-5px);
+}
+
+.ceramah-item h2 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+.dark-mode .ceramah-item h2 {
+    color: #e67e22;
+}
+
+.ceramah-item p {
+    margin: 10px 0;
+}
+
+.ceramah-item ul {
+    margin: 10px 0 0 20px;
+    padding: 0;
+}
+
+.ceramah-item ul li {
+    margin-bottom: 5px;
+}
+
+.action-buttons {
+    margin-top: 15px;
+}
+
+.btn-download, .btn-favorite {
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-download {
+    background-color: #27ae60;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.btn-download:hover {
+    background-color: #219150;
+}
+
+.btn-favorite {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-favorite:hover {
+    background-color: #c0392b;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+}
